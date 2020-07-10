@@ -5,40 +5,37 @@
 	font-weight: normal;
 }
 
-body {
+.main-content {
 	width: 1440px;
 	height: 2427px;
 }
 
-.Heading {
+.heading {
 	background-color: #E5E000;
-	width: 1440px;
 	height: 200px;
 }
 
-.Heading h1 {
+.heading h1 {
 	font-family: 'gulim';
 	font-size: 50px;
 	font-weight: bold;
-    line-height: 57px;
 	color: white;
-	padding: 65px 80px;
+	line-height: 200px;
+	padding-left: 80px;
 }
 
 .image {
 width: 1440px;
 height: 1080px;
 background-size: cover;
-background-repeat: no-repeat;
 }
 
-.Menu {
-	width: 1440px;
+.menu {
 	height: 100px;
 	background: #E5E000;
 	
 }
-.Links a {
+.links a {
 	font-family: 'gulim';
 	font-weight: bold;
 	font-size: 25px;
@@ -48,17 +45,17 @@ background-repeat: no-repeat;
 	color: #FFFFFF;
 }
 
-.Links {
+.links {
 	padding-left: 80px;
 	padding-top: 39px;
 }
-.MainContent {
+.main-text {
 	width: 1280px;
 	padding-top: 110px;
 	padding-left: 80px;
 	padding-bottom: 100px;
 }
-.Content p {
+.text p {
 	font-family: 'gulim';
 	font-size: 50px;
 	line-height: 57px;
@@ -68,41 +65,37 @@ p + p {
 	padding-top: 100px;
 }
 
-.Footer {
+.footer {
 	width: 1440px;
 	height: 200px;
 	background: #E5E000;
-	position: relative;
 }
-.Content h2 {
+.text h2 {
 	font-family: 'gulim';
 	font-weight: bold;
 	font-size: 50px;
-	line-height: 57px;
 	margin-bottom: 100px;
 }
 
-.webdevelopment {
-	width: 614px;
-	height: 64px;
-	position: absolute;
-    padding-top: 70px;
-    padding-left: 746px;
-}
-.webdevelopment p {
+
+.footer p {
 	font-size: 50px;
-	line-height: 57px;
 	color: white;
 	text-align: right;
-	display: block;
 	font-weight: bold;
+	line-height: 200px;
+	padding-right: 80px;
 }
-.Logo img {
-padding-top: 67px;
-padding-left: 80px;
-height: 76px;
-width: 86px;
-position: absolute;
+
+.logo {
+
+}
+
+.logo img {
+	background-size: cover;
+	background-color: red;
+	height: 76px;
+	width: 86px;
 }
 
 
