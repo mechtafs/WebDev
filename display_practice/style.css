@@ -1,0 +1,87 @@
+.page {
+  font-family: sans-serif;
+}
+
+a {
+  color: white;
+}
+
+.header, footer {
+  height: 50px;
+  background-color: black;
+  color: white;
+  box-sizing: border-box;
+}
+
+.header-container {
+  font-size: 0;
+  width: 800px;
+  margin: auto;
+  box-sizing: border-box;
+  height: 50px;
+
+}
+.logo {
+  font-size: 20px;
+  display: inline-block;
+  width: 200px;
+}
+
+.logo h1 {
+  margin: 0px;
+}
+.menu {
+  font-size: 16px;
+  box-sizing: border-box;
+  display: inline-block;
+  vertical-align: top;
+  
+
+  
+}
+
+ul {
+  padding-left: 10px;
+}
+
+.menu li {
+
+  margin-right: 5px;
+  display: inline-block;
+  
+
+
+}
+
+.columns {
+  width: 800px;
+  margin: 50px auto;
+  font-size: 0;
+}
+
+.left {
+  width: 200px;
+  margin-right: 10px;
+  background-color: black;
+  display: inline-block;
+  box-sizing: border-box;
+  padding: 20px;
+  font-size: 16px;
+  vertical-align: top;
+}
+.right {
+  width: 590px;
+  border: 2px solid black;
+  box-sizing: border-box;
+  padding: 20px;
+  display: inline-block;
+  font-size: 16px;
+  vertical-align: top;
+  padding: 68px 12px;
+}
+
+.left a {
+  display: block;
+  margin-top: 5px;
+}
+
